@@ -12,6 +12,15 @@
     margin-bottom: 32px;
 }
 
+
+@media (max-width: 800px) {
+    .controlPane {
+        max-width: 400px;
+        overflow: scroll;
+    }
+}
+
+
 .title {
     margin: 0;
     /* Optical centering */

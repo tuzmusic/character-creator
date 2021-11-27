@@ -35,3 +35,31 @@
 .controlColumn {
     width: 50%;
 }
+
+@media (max-width: 800px) {
+    .characterEditor{
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+        padding-bottom: 64px;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .controlColumn {
+        display: flex;
+        overflow: scroll;
+        width: 100%;
+        gap: 16px;
+        z-index: 1;
+        position: relative;
+        padding: 0 16px;
+    }
+
+    .characterWrapper {
+        top: 16px;
+        left: 16px;
+    }
+}

@@ -3,3 +3,9 @@
     white-space: nowrap;
     padding: 24px 0;
 }
+
+@media (max-width: 800px) {
+    .buttonRow {
+        overflow: scroll;
+    }
+}
